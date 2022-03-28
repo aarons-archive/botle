@@ -4,3 +4,5 @@ vsp = 0; //current vertical speed
 hspWalk = 3.5; //walk speed
 vspJump = -6; //jump speed
 canJump = 0; //are we touching the ground
+state = "bottle";
+_keyChange = 0;

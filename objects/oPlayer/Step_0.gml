@@ -2,6 +2,10 @@
 var _keyRight = keyboard_check(ord("D"));
 var _keyLeft =  keyboard_check(ord("A"));
 var _keyJump =  keyboard_check_pressed(vk_space);
+_keyChange = keyboard_check_pressed(vk_shift);
+
+//State Machine
+StateMachine();
 
 //Work out where to move horizontally
 hsp = (_keyRight - _keyLeft) * hspWalk;
@@ -40,3 +44,4 @@ if (place_meeting(x, y + vsp, oSolid))
 	vsp = 0;
 }
 y += vsp;
+
