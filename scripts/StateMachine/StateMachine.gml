@@ -23,8 +23,8 @@ if state == "bag"
 	hspWalk = 2;
 
 	//Wind Mechanic
-	if place_meeting(x,y,oRightWind) hsp += 4;
-	if place_meeting(x,y,oLeftWind) hsp -= 4;
+	if place_meeting(x,y,oRightWind) x += 4;
+	if place_meeting(x,y,oLeftWind) x -= 4;
 	
 	//Change Key
 	if (_keyChange)
