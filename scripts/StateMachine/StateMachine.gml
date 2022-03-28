@@ -68,9 +68,13 @@ if state == "bag"
 	hspWalk = 2;
 
 	//Wind Mechanic
-	if place_meeting(x,y,oRightWind) haddsp = 12;
-	if place_meeting(x,y,oLeftWind) haddsp = 12;
-	
+	if place_meeting(x,y,oRightWind) 
+	{
+		image_index = 1;
+		haddsp = 12;
+	}
+	else if place_meeting(x,y,oLeftWind) haddsp = -12;
+	else image_index = 0;
 	//Change Key
 	if (_keyChange)
 	{
