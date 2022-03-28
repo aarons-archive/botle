@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"009e6a96-33d9-4ee6-8168-101991f7bf65","path":"sprites/sBottle/sBottle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"009e6a96-33d9-4ee6-8168-101991f7bf65","path":"sprites/sBottle/sBottle.yy",},"LayerId":{"name":"9795e6d8-5acf-4ef8-a166-b5fce5659a90","path":"sprites/sBottle/sBottle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBottle","path":"sprites/sBottle/sBottle.yy",},"resourceVersion":"1.0","name":"009e6a96-33d9-4ee6-8168-101991f7bf65","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ccb57d10-00a1-497a-a24f-ee0cbe70e3ee","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ccb57d10-00a1-497a-a24f-ee0cbe70e3ee","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},"LayerId":{"name":"caf6c585-a3b7-4e42-bb28-61b70b1f52a8","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlayerPlaceholder","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"ccb57d10-00a1-497a-a24f-ee0cbe70e3ee","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sBottle","path":"sprites/sBottle/sBottle.yy",},
+    "spriteId": {"name":"sPlayerPlaceholder","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"737ff293-8448-493d-b312-f8ee262233d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"009e6a96-33d9-4ee6-8168-101991f7bf65","path":"sprites/sBottle/sBottle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e7012e84-5d89-442a-89a9-9e15558bdcd1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ccb57d10-00a1-497a-a24f-ee0cbe70e3ee","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sBottle","path":"sprites/sBottle/sBottle.yy",},
+    "parent": {"name":"sPlayerPlaceholder","path":"sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",},
     "resourceVersion": "1.4",
-    "name": "sBottle",
+    "name": "sPlayerPlaceholder",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9795e6d8-5acf-4ef8-a166-b5fce5659a90","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"caf6c585-a3b7-4e42-bb28-61b70b1f52a8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sBottle",
+  "name": "sPlayerPlaceholder",
   "tags": [],
   "resourceType": "GMSprite",
 }
