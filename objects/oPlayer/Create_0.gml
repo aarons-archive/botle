@@ -8,6 +8,7 @@ canJump = 0; //are we touching the ground
 state = "bottle";
 _keyChange = 0;
 _keyDash = 0;
-jumpspeed = 3;
+jumpspeed = 4;
 jumpcap = 10; 
 dash = 0;
+

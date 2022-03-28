@@ -6,7 +6,6 @@ if state == "bottle"
 	grv = 0.2;
 	vspJump = -6;
 	hspWalk = 3.5;
-	//Jumping
 	//jumping
 	if (place_meeting(x,y+1,oSolid)) && (canJump-- > 0)
 	{
@@ -14,8 +13,8 @@ if state == "bottle"
 		if keyboard_check(vk_space) 
 		{
 			hspWalk = 0;	
-			if jumpspeed > 10 jumpspeed = 10
-			jumpspeed += 0.1;
+			if jumpspeed > 9 jumpspeed = 9
+			jumpspeed += 0.2;
 		} else if keyboard_check_released(vk_space) {
 			canJump = 0;
 			vsp -= jumpspeed;
@@ -25,6 +24,7 @@ if state == "bottle"
 			 vsp -= jumpspeed;
 		}
 	}
+	
 	//Dashing
 	if (place_meeting (x,y+1,oSolid)) dash = 1;
 	if (_keyDash) && (dash > 0) && vsp != 0
