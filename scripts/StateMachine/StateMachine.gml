@@ -15,12 +15,21 @@ if state == "bottle"
 			hspWalk = 0;	
 			if jumpspeed > 9 jumpspeed = 9
 			jumpspeed += 0.2;
-		} else if keyboard_check_released(vk_space) {
+			if (jumpspeed < 5) image_index = 1;
+			else if (jumpspeed < 7) image_index = 2;
+			else if (jumpspeed < 10) image_index = 3;
+		} 
+		else if keyboard_check_released(vk_space) 
+		{
+			image_index = 0;
 			canJump = 0;
 			vsp -= jumpspeed;
 			jumpspeed = 4;
 			hspWalk = 3.5;
-		} else if keyboard_check_pressed(vk_space){ // jump normal
+		} 
+		else if keyboard_check_pressed(vk_space)
+		{ 
+			// jump normal
 			 vsp -= jumpspeed;
 		}
 	}
@@ -31,17 +40,18 @@ if state == "bottle"
 	{
 	    if !((place_meeting (x,y+1,oSolid)) && (mouse_y > y))
 	    {
+			if (!audio_is_playing(snBottleSquirt)) audio_play_sound(snBottleSquirt, 5, 0); 
 	        dash--;
-	        haddsp = round(lengthdir_x(-15,point_direction(x,y,mouse_x,mouse_y)));
+	        haddsp = round(lengthdir_x(-13,point_direction(x,y,mouse_x,mouse_y)));
 	        if (mouse_y > y) //When mouse is above player
 	        {
-	            vsp = -3 + lengthdir_y(-8,point_direction(x,y,mouse_x,mouse_y));
+	            vsp = -3 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y));
 	        }
 	        else if (mouse_y > (y + 100))
 	        {
-	            vsp = 5 + lengthdir_y(-8,point_direction(x,y,mouse_x,mouse_y));    //When mouse is below player
+	            vsp = 5 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y));    //When mouse is below player
 	        }    
-	        else vsp = -2 + lengthdir_y(-8,point_direction(x,y,mouse_x,mouse_y)); //When mouse is horizontal
+	        else vsp = -2 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y)); //When mouse is horizontal
 	    }
 	}
 
@@ -63,7 +73,7 @@ if state == "bag"
 	image_angle = 0;
 	sprite_index = sBag;
 	//Variables
-	grv = 0.05;
+	grv = 0.08;
 	vspJump = -2;
 	hspWalk = 2;
 
