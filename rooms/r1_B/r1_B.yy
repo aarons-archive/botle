@@ -15,7 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":1792.0,"resourceVersion":"1.0","name":"inst_7210D317_1","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":1792.0,"resourceVersion":"1.0","name":"inst_526B8311_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWarpBlock","path":"objects/oWarpBlock/oWarpBlock.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3136.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_1AC99112","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":25.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":1824.0,"resourceVersion":"1.0","name":"inst_73D39C05","tags":[],"resourceType":"GMRInstance",},
@@ -44,7 +44,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7210D317_1","path":"rooms/r1_B/r1_B.yy",},
-    {"name":"inst_526B8311_1","path":"rooms/r1_B/r1_B.yy",},
     {"name":"inst_6C867C17_1","path":"rooms/r1_B/r1_B.yy",},
     {"name":"inst_73D39C05","path":"rooms/r1_B/r1_B.yy",},
     {"name":"inst_4A445DD5","path":"rooms/r1_B/r1_B.yy",},
@@ -61,6 +60,7 @@
     {"name":"inst_135066DC","path":"rooms/r1_B/r1_B.yy",},
     {"name":"inst_101F2388","path":"rooms/r1_B/r1_B.yy",},
     {"name":"inst_277A65E2","path":"rooms/r1_B/r1_B.yy",},
+    {"name":"inst_1AC99112","path":"rooms/r1_B/r1_B.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
