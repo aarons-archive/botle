@@ -1,4 +1,6 @@
-enum States {	IDLE,
-	Moving,
-	Shooting,
+enum States {	
+	IDLE,
+	MOVING,
+	SHOOTING,
 }
+
