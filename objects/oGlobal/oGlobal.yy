@@ -1,14 +1,8 @@
 {
-  "spriteId": {
-    "name": "sGum",
-    "path": "sprites/sGum/sGum.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sGum",
-    "path": "sprites/sGum/sGum.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -25,16 +19,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Gum",
-    "path": "folders/Gum.yy",
+    "name": "World",
+    "path": "folders/World.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGum",
+  "name": "oGlobal",
   "tags": [],
   "resourceType": "GMObject",
 }

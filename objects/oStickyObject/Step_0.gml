@@ -11,19 +11,3 @@ if (place_meeting(x, y + _vertical_distance, oSolid)) {
 }
 
 y += _vertical_distance
-
-
-///////////////////
-// State machine //
-///////////////////
-switch(_state) {
-    case States.SHOOTING:
-		break;
-	default:
-		_gum_movement()
-		_gum_shoot()
-		break;
-}
-
-
-
