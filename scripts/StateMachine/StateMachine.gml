@@ -1,7 +1,7 @@
 function StateMachine(){
 if state == "bottle"
 {
-	sprite_index = sBottleNew;
+	sprite_index = sBottle;
 	//Variables
 	grv = 0.2;
 	vspJump = -6;
