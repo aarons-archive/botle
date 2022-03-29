@@ -11,5 +11,8 @@ _keyDash = 0;
 jumpspeed = 4;
 jumpcap = 10; 
 dash = 0;
+waddle = 20;
 image_speed = 0;
+
+
 

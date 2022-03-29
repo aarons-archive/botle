@@ -33,7 +33,7 @@ if state != "bottle"
 var hspMomentum = hsp + haddsp;
 if (place_meeting(x + hspMomentum, y, oSolid)) 
 {
-    image_angle = 0;
+	image_angle = 0;
     while (abs(hspMomentum) > 0.1) 
     {
         hspMomentum *= 0.5;
@@ -55,6 +55,23 @@ if (place_meeting(x, y + vsp, oSolid))
 	vsp = 0;
 }
 y += vsp;
+
+//Waddle
+if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)))
+{
+	waddle--;
+	if (waddle >= 10) 
+	{
+		image_angle = 10;
+		if (state == "bottle" && !audio_is_playing(snBottleWalk1)) audio_play_sound(snBottleWalk1,5,0);
+	}
+	else if (waddle < 10)
+	{
+		image_angle = -10;
+		if (state == "bottle" && !audio_is_playing(snBottleWalk2)) audio_play_sound(snBottleWalk2,5,0);
+	}
+	if (waddle <= 0) waddle = 20;
+}
 
 
 
