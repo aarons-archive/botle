@@ -6,3 +6,6 @@ switch (oPlayer.state)
 }
 
 image_angle = oPlayer.image_angle;
+
+
+
