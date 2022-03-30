@@ -15,7 +15,7 @@
   "duration": 0.27,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "path": "folders/Plastic Bag/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "snBagWalk1",

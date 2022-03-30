@@ -1,5 +1,5 @@
 draw_set_halign(fa_center);
-draw_set_font(fnt_Menu);
+draw_set_font(fontMenu);
 
 //line spacing
 var _gap = 40;

@@ -34,5 +34,4 @@ if (place_meeting(x, y, oSolid)) {
 if (place_meeting(x, y, oPlayer)) {
 	x += 1
 }
-show_debug_message(_buffer)
 

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title shit",
-    "path": "folders/Objects/Title shit.yy",
+    "name": "Objects",
+    "path": "folders/Menu/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSettings",

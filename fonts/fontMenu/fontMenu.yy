@@ -129,11 +129,11 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Menu",
+    "path": "folders/Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fnt_Menu",
+  "name": "fontMenu",
   "tags": [],
   "resourceType": "GMFont",
 }

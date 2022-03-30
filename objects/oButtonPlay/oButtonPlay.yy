@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sTitleButtonPlay",
-    "path": "sprites/sTitleButtonPlay/sTitleButtonPlay.yy",
+    "name": "sButtonPlay",
+    "path": "sprites/sButtonPlay/sButtonPlay.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oButtonPar",
-    "path": "objects/oButtonPar/oButtonPar.yy",
+    "name": "oButtonParent",
+    "path": "objects/oButtonParent/oButtonParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title shit",
-    "path": "folders/Objects/Title shit.yy",
+    "name": "Objects",
+    "path": "folders/Menu/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oButtonPlay",

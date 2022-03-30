@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "path": "folders/Plastic Bag/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlasticBag",

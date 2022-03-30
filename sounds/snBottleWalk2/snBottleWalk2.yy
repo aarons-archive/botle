@@ -15,7 +15,7 @@
   "duration": 0.216,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "path": "folders/Bottle/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "snBottleWalk2",

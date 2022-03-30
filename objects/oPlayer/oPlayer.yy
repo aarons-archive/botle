@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlayerPlaceholder",
-    "path": "sprites/sPlayerPlaceholder/sPlayerPlaceholder.yy",
+    "name": "sPlayerPlaceHolder",
+    "path": "sprites/sPlayerPlaceHolder/sPlayerPlaceHolder.yy",
   },
   "solid": false,
   "visible": true,

@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Gum",
-    "path": "folders/Gum.yy",
+    "name": "Objects",
+    "path": "folders/Gum/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oStickyObject",
