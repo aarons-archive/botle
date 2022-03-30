@@ -1,14 +1,8 @@
 {
-  "spriteId": {
-    "name": "sGum",
-    "path": "sprites/sGum/sGum.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sGum",
-    "path": "sprites/sGum/sGum.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

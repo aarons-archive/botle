@@ -1,2 +1,3 @@
-oGum._state = States.IDLE
-oGum._globjule = noone
+oPlayer._state = States.IDLE
+oPlayer._globjule = noone
+

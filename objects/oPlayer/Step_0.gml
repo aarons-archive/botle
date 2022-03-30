@@ -91,3 +91,4 @@ else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "
 
 
 
+

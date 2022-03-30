@@ -1,7 +1,7 @@
 draw_self()
 
-var _distance = point_distance(x, y, oGum.x, oGum.y)
-var _angle = point_direction(x, y, oGum.x, oGum.y)
+var _distance = point_distance(x, y, oPlayer.x, oPlayer.y)
+var _angle = point_direction(x, y, oPlayer.x, oPlayer.y)
 var _spacing = 1
 var _number = _distance / _spacing
 
@@ -18,4 +18,5 @@ for (var i = 0; i < _number; i++) {
 		c_white, 1
 	)
 }
+
 

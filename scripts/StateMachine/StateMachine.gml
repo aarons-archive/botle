@@ -108,6 +108,18 @@ if state == "gum"
 	grv = 0.2;
 	vspJump = -6;
 	hspWalk = 2;
+
+	switch(_state) {
+    case States.SHOOTING:
+		hspWalk = 0;
+		vspJump = 0;
+		break;
+	default:
+		_gum_shoot();
+		vspJump = -6;
+		hspWalk = 2;
+		break;
+	}
 	
 	//Change Key
 	if (_keyChange)
