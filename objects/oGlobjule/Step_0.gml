@@ -18,10 +18,13 @@ else {
 		point_distance(oGum.x, oGum.y, x, y) > _max_distance
 		or
 		place_meeting(x, y, oSolid)
+		or 
+		mouse_check_button_released(oGum._mouse_fire_key)
 	) {
 		_is_retracting = true  
 	}
 
 }
+
 
 
