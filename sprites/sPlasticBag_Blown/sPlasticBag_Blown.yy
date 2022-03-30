@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"90910401-aaef-4a6a-829c-8c27477a931f","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"90910401-aaef-4a6a-829c-8c27477a931f","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},"LayerId":{"name":"b0778837-3fa5-4d01-bff7-6566e11b76d8","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlasticBag_Walking","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},"resourceVersion":"1.0","name":"90910401-aaef-4a6a-829c-8c27477a931f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c3fe466e-9768-4fb1-afeb-8168e527197d","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c3fe466e-9768-4fb1-afeb-8168e527197d","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},"LayerId":{"name":"b0778837-3fa5-4d01-bff7-6566e11b76d8","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlasticBag_Blown","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},"resourceVersion":"1.0","name":"c3fe466e-9768-4fb1-afeb-8168e527197d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPlasticBag_Walking","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},
+    "spriteId": {"name":"sPlasticBag_Blown","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c616236b-8a55-4010-94f3-d09a1a396019","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"90910401-aaef-4a6a-829c-8c27477a931f","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"744def6e-a705-4c20-bdf3-ff60a408ebb3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c3fe466e-9768-4fb1-afeb-8168e527197d","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPlasticBag_Walking","path":"sprites/sPlasticBag_Walking/sPlasticBag_Walking.yy",},
+    "parent": {"name":"sPlasticBag_Blown","path":"sprites/sPlasticBag_Blown/sPlasticBag_Blown.yy",},
     "resourceVersion": "1.4",
-    "name": "sPlasticBag_Walking",
+    "name": "sPlasticBag_Blown",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sPlasticBag_Walking",
+  "name": "sPlasticBag_Blown",
   "tags": [],
   "resourceType": "GMSprite",
 }

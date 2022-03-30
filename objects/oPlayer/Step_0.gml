@@ -57,18 +57,34 @@ if (place_meeting(x, y + vsp, oSolid))
 y += vsp;
 
 //Waddle
-if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)))
+if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "bottle")
 {
 	waddle--;
 	if (waddle >= 10) 
 	{
 		image_angle = 10;
-		if (state == "bottle" && !audio_is_playing(snBottleWalk1)) audio_play_sound(snBottleWalk1,5,0);
+		if (!audio_is_playing(snBottleWalk1)) audio_play_sound(snBottleWalk1,5,0);
 	}
 	else if (waddle < 10)
 	{
 		image_angle = -10;
-		if (state == "bottle" && !audio_is_playing(snBottleWalk2)) audio_play_sound(snBottleWalk2,5,0);
+		if (!audio_is_playing(snBottleWalk2)) audio_play_sound(snBottleWalk2,5,0);
+	}
+	if (waddle <= 0) waddle = 20;
+}
+else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "bag")
+{
+	waddle -= 0.5;
+	sprite_index = sPlasticBag_Walking;
+	if (waddle >= 10) 
+	{
+		image_angle = 10;
+		if (!audio_is_playing(snBagWalk1)) audio_play_sound(snBagWalk1,5,0);
+	}
+	else if (waddle < 10)
+	{
+		image_angle = -10;
+		if (!audio_is_playing(snBagWalk2)) audio_play_sound(snBagWalk2,5,0);
 	}
 	if (waddle <= 0) waddle = 20;
 }

@@ -71,19 +71,27 @@ if vsp != 0
 if state == "bag"
 {
 	image_angle = 0;
-	sprite_index = sBag;
+	sprite_index = sPlasticBag;
 	//Variables
-	grv = 0.08;
+	if vsp > 0 grv = 0.05;
+	else grv = 0.15
 	vspJump = -2;
-	hspWalk = 2;
+	if (vsp != 0) hspWalk = 3;
+	else hspWalk = 2;
+	if (vsp < -6) vsp = -6;
 
 	//Wind Mechanic
 	if place_meeting(x,y,oRightWind) 
 	{
-		image_index = 1;
+		sprite_index = sPlasticBag_Blown;
 		haddsp = 12;
+		grv = -0.3;
 	}
-	else if place_meeting(x,y,oLeftWind) haddsp = -12;
+	else if place_meeting(x,y,oLeftWind) 
+	{
+		haddsp = -12;	
+		grv = -0.3;
+	}
 	else image_index = 0;
 	//Change Key
 	if (_keyChange)
