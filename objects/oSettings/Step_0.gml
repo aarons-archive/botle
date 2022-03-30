@@ -56,57 +56,22 @@ if _select or (is_array(menu[sub_menu][index]) and (_hmove != 0))
 			switch(index)
 			{
 				case 0:
-					//graphics
-				break;
-				case 1:
 					//Sounds
 					change_menu(_hmove, "sound");
+					audio_set_master_gain(0,(set[? "sound"][0]* 10) /100);
 				break;
-				case 2:
+				case 1:
 					//Music
-					change_menu(_hmove, "music");
-					
-					
+					change_menu(_hmove, "music");		
 				break; 
-				case 3:
-					//Controls
-					
-					
-				break; 
-				case 4:
+				case 2:
 					//Back
 					sub_menu = SETTINGS;
 					room_goto(r0_Menu);
 					index = 1;
 				break; 
 			}
-		case UPGRADES:
-			switch(index)
-			{
-				case 0:
-					//Health
-					change_menu(_hmove, "health");
-				break;
-				case 1:
-					//Damage
-					change_menu(_hmove, "spear damage");
-				break;
-				case 2:
-					//Spear Speed
-					change_menu(_hmove, "spear speed");
-				break;
-				case 3:
-					//Spear Recharge
-					change_menu(_hmove, "spear recharge");
-				break;
-				case 4:
-					//Back
-					sub_menu = SETTINGS;
-					index = 1;
-				break; 
-		break;
-	}
-	}
+		}
 }
 
 function change_menu(_move, _key)
