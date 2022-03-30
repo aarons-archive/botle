@@ -92,7 +92,7 @@ function _gum_movement() {
 
 function _gum_shoot() {
 	if (mouse_check_button_pressed(_mouse_fire_key) == true and _globjule == noone) { 
-		_globjule = instance_create_layer(x, y, "Instances", oGlobjule)
+		_globjule = instance_create_layer(x, y, "Player", oGlobjule)
 	}
 }
 
