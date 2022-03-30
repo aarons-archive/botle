@@ -96,5 +96,3 @@ function _gum_shoot() {
 	}
 }
 
-
-
