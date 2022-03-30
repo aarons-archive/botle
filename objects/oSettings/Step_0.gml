@@ -65,6 +65,9 @@ if _select or (is_array(menu[sub_menu][index]) and (_hmove != 0))
 					change_menu(_hmove, "music");		
 				break; 
 				case 2:
+						
+				break; 
+				case 3:
 					//Back
 					sub_menu = SETTINGS;
 					room_goto(r0_Menu);
@@ -100,3 +103,4 @@ function change_menu(_move, _key)
 	//move the selection
 	_map_arr[@ 0] = clamp(_move + _map_arr[0], _min, _max);
 }
+
