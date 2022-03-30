@@ -3,6 +3,13 @@ if (_is_retracting == true) {
 
 	_retract_globjule()
 	
+	if (_sticky_object != noone) {
+		_sticky_object.direction = point_direction(x, y, oGum.x, oGum.y)
+		_sticky_object.speed = 5
+		_sticky_object._was_hit = true
+		_sticky_object = noone
+	}
+	
 	if (place_meeting(x, y, oGum)) {
 		instance_destroy()
 	}
