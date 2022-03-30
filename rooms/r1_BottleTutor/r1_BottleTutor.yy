@@ -206,7 +206,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7210D317_1","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
-    {"name":"inst_526B8311_1","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_6C867C17_1","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_73D39C05","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_4A445DD5","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
@@ -232,6 +231,7 @@
     {"name":"inst_29469FBC","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_64D17591","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_423CEC64","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
+    {"name":"inst_526B8311_1","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
