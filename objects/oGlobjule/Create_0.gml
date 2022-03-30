@@ -14,4 +14,3 @@ function _retract_globjule() {
 	speed = 5	
 }
 
-

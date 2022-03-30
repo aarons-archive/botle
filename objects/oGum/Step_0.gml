@@ -25,5 +25,3 @@ switch(_state) {
 		break;
 }
 
-
-
