@@ -1,0 +1,1 @@
+target_x = 414;target_y = 600;target_rm = r5_Narrow;

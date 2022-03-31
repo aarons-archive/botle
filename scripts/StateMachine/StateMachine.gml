@@ -18,19 +18,20 @@ function StateMachine() {
 			{
 				hspWalk = 0
 				if jumpspeed > 9 jumpspeed = 9
-  				jumpspeed += 0.2
-				if (jumpspeed < 5) image_index = 1
-				else if (jumpspeed < 7) image_index = 2
-				else if (jumpspeed < 10) image_index = 3
-				ScreenShake(1,1)
+				jumpspeed += 0.2;
+				if (jumpspeed < 5) image_index = 1;
+				else if (jumpspeed < 7) image_index = 2;
+				else if (jumpspeed < 10) image_index = 3;
+				ScreenShake(0.6,1);
 			} 
 			else if keyboard_check_released(vk_space) 
 			{
-				image_index = 0
-				canJump = 0
-				vsp -= jumpspeed
-				jumpspeed = 4
-				hspWalk = 3.5
+				image_index = 0;
+				canJump = 0;
+				vsp -= jumpspeed;
+				jumpspeed = 4;
+				hspWalk = 3.5;
+				audio_play_sound(snBottleJump,5,0);
 			} 
 			else if keyboard_check_pressed(vk_space)
 			{ 
@@ -43,7 +44,7 @@ function StateMachine() {
 		
 		if (place_meeting (x,y+1,oSolid)) 
 		{ 
-			dash = 1 
+			dash = 1; 
 		}
 		
 		if (_keyDash) && (dash > 0) && vsp != 0 
@@ -150,8 +151,4 @@ function StateMachine() {
 		}
 	}
 }
-
-
-
-
 

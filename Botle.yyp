@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"sTrashRacoonAppearing","path":"sprites/sTrashRacoonAppearing/sTrashRacoonAppearing.yy",},"order":17,},
-    {"id":{"name":"oRacoon","path":"objects/oRacoon/oRacoon.yy",},"order":19,},
+    {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":22,},
+    {"id":{"name":"tTilesBig","path":"tilesets/tTilesBig/tTilesBig.yy",},"order":52,},
+    {"id":{"name":"oRaccoon","path":"objects/oRaccoon/oRaccoon.yy",},"order":19,},
     {"id":{"name":"oCol","path":"objects/oCol/oCol.yy",},"order":2,},
     {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},"order":0,},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":12,},
@@ -24,6 +26,7 @@
     {"id":{"name":"tForeground","path":"tilesets/tForeground/tForeground.yy",},"order":2,},
     {"id":{"name":"sDeath","path":"sprites/sDeath/sDeath.yy",},"order":5,},
     {"id":{"name":"sButtonSettings","path":"sprites/sButtonSettings/sButtonSettings.yy",},"order":2,},
+    {"id":{"name":"snBottleJump","path":"sounds/snBottleJump/snBottleJump.yy",},"order":3,},
     {"id":{"name":"r0_LevelSelect","path":"rooms/r0_LevelSelect/r0_LevelSelect.yy",},"order":2,},
     {"id":{"name":"oSpikeBlock","path":"objects/oSpikeBlock/oSpikeBlock.yy",},"order":14,},
     {"id":{"name":"fontMenu","path":"fonts/fontMenu/fontMenu.yy",},"order":2,},
@@ -83,6 +86,7 @@
     {"id":{"name":"sTrashRacoonOG","path":"sprites/sTrashRacoonOG/sTrashRacoonOG.yy",},"order":18,},
     {"id":{"name":"sGum","path":"sprites/sGum/sGum.yy",},"order":0,},
     {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},"order":0,},
+    {"id":{"name":"sTilesMenu","path":"sprites/sTilesMenu/sTilesMenu.yy",},"order":23,},
     {"id":{"name":"oButtonSettings","path":"objects/oButtonSettings/oButtonSettings.yy",},"order":4,},
     {"id":{"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},"order":2,},
     {"id":{"name":"sStickyObject","path":"sprites/sStickyObject/sStickyObject.yy",},"order":3,},

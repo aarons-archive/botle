@@ -29,6 +29,7 @@ if state != Players.BOTTLE
 {
 	if (canJump-- > 0) && (_keyJump)
 	{
+		if audio_is_playing(snBottleJump) audio_play_sound(snBottleJump,5,0);
 		vsp = vspJump;
 		canJump = 0;
 	}
@@ -94,4 +95,3 @@ else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == P
 	}
 	if (waddle <= 0) waddle = 20;
 }
-

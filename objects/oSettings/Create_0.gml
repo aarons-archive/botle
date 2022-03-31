@@ -14,12 +14,12 @@ time_held_left = 0;
 //options sub menu 1
 menu[SETTINGS][0] = ["Sound FX ", "sound"];
 menu[SETTINGS][1] = ["Music ", "music"];
-menu[SETTINGS][2] = "Controls";
-menu[SETTINGS][3] = "Back";
+menu[SETTINGS][2] = "Back";
 
 
 index = 0; //menu inded pos
 sub_menu = 0;
+
 
 
 

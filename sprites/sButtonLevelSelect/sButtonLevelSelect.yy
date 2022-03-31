@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 155,
+  "bbox_right": 233,
   "bbox_top": 0,
-  "bbox_bottom": 59,
+  "bbox_bottom": 89,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 156,
-  "height": 60,
+  "width": 234,
+  "height": 90,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"41837755-8caa-41dd-9059-98e8661c308f","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"41837755-8caa-41dd-9059-98e8661c308f","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"LayerId":{"name":"09f20d10-e5df-4131-820c-8ddd7fab7c4d","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sButtonLevelSelect","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","name":"41837755-8caa-41dd-9059-98e8661c308f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"LayerId":{"name":"09f20d10-e5df-4131-820c-8ddd7fab7c4d","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sButtonLevelSelect","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a83b59e3-4e6f-4b1b-a5e7-2235a9e35549","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a83b59e3-4e6f-4b1b-a5e7-2235a9e35549","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"LayerId":{"name":"09f20d10-e5df-4131-820c-8ddd7fab7c4d","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sButtonLevelSelect","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","name":"a83b59e3-4e6f-4b1b-a5e7-2235a9e35549","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sButtonLevelSelect","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4d38fd9e-9b77-4de4-8552-0d7c945b3c94","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"41837755-8caa-41dd-9059-98e8661c308f","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5f45e83c-6fb5-4efa-a0dd-e97a9d666453","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a2d4c456-d013-484c-8a31-c68bae3aa4f5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a83b59e3-4e6f-4b1b-a5e7-2235a9e35549","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,8 +58,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 78,
-    "yorigin": 30,
+    "xorigin": 117,
+    "yorigin": 45,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sButtonLevelSelect","path":"sprites/sButtonLevelSelect/sButtonLevelSelect.yy",},

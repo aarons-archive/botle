@@ -8,7 +8,7 @@ var _gap = 40;
 for (var i = 0; i < array_length(menu[sub_menu]); ++i) 
 {
 	draw_set_color(c_white);
-	if i == index draw_set_color(c_teal);
+	if i == index draw_set_color(c_lime);
 	
 	//is this a selectable menu item or text
 	if is_array(menu[sub_menu][i])
@@ -36,5 +36,6 @@ for (var i = 0; i < array_length(menu[sub_menu]); ++i)
 	
     draw_text(room_width/2, room_height * .4 + _gap * i, _str);
 }
+
 
 
