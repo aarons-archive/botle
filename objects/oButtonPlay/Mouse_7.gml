@@ -5,3 +5,4 @@
 event_inherited();
 
 room_goto(r1_BottleTutor);
+instance_create_layer(270, 1088, "Player",oPlayer);
