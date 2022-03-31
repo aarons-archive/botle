@@ -19,7 +19,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_7210D317_1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oGlobal","path":"objects/oGlobal/oGlobal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-96.0,"y":768.0,"resourceVersion":"1.0","name":"inst_7F4BDA78","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oStickyObject","path":"objects/oStickyObject/oStickyObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":992.0,"resourceVersion":"1.0","name":"inst_46971A1B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oStickyObject","path":"objects/oStickyObject/oStickyObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_1A465EE0","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -196,6 +196,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.28125,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2857.0,"y":512.0,"resourceVersion":"1.0","name":"inst_29469FBC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.28125,"scaleY":5.03125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2927.0,"y":447.0,"resourceVersion":"1.0","name":"inst_64D17591","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.90625,"scaleY":0.46875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2866.0,"y":593.0,"resourceVersion":"1.0","name":"inst_423CEC64","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oCol","path":"objects/oCol/oCol.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":14.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":960.0,"resourceVersion":"1.0","name":"inst_2878E5EB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":false,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Collision","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oDeath","path":"objects/oDeath/oDeath.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":14.0,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":912.0,"resourceVersion":"1.0","name":"inst_4D5ABB10","tags":[],"resourceType":"GMRInstance",},
@@ -252,6 +253,8 @@
     {"name":"inst_423CEC64","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_5832F5AD","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
     {"name":"inst_7F4BDA78","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
+    {"name":"inst_1A465EE0","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
+    {"name":"inst_2878E5EB","path":"rooms/r1_BottleTutor/r1_BottleTutor.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
