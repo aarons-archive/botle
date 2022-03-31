@@ -1,6 +1,5 @@
-enum States {	
-	IDLE,
-	MOVING,
-	SHOOTING,
+enum Players {
+	BOTTLE,
+	PLASTIC_BAG,
+	GUM,
 }
-

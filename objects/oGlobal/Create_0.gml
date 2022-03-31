@@ -1,10 +1,8 @@
-cursor_sprite = sCursor;
-window_set_cursor(cr_none);
+cursor_sprite = sCursor
+window_set_cursor(cr_none)
 
 
-if instance_exists(oPlayer) > 1
-{
-instance_destroy(oPlayer)
+if (instance_number(oPlayer) > 1) {
+	instance_destroy(oPlayer)
 }
-
 

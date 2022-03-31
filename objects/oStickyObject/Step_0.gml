@@ -24,15 +24,21 @@ x += _horizontal_distance
 // Retraction //
 ////////////////
 if (_was_hit == true) {
-	if (collision_circle(x, y, 40, oPlayer, true, true) or _move_buffer == 0) {
+	if (collision_circle(x, y, 25, oPlayer, true, true)) {
 		speed = 0
 		_was_hit = false
-		_move_buffer = 40
 	}
-	_move_buffer -= 1
+	else {
+		direction = point_direction(x, y, oPlayer.x, oPlayer.y)
+		speed = 10
+	}
 }
 
 if (place_meeting(x, y, oSolid)) {
 	y -= 1
 }
+if (collision_rectangle(x - 10, y - 10, x + 10, y + 10, oPlayer, true, true)) {
+	oPlayer.y -= 1
+}
+
 

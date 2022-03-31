@@ -1,14 +1,14 @@
 function StateMachine() {
 
-    // Bottle
-	if state == "bottle" {
+	if (state == Players.BOTTLE) {
 	
-		sprite_index = sBottle;
+		// Sprites
+		sprite_index = sBottle
 		
 		//Variables
-		grv = 0.2;
-		vspJump = -6;
-		hspWalk = 3.5;
+		grv = 0.2
+		vspJump = -6
+		hspWalk = 3.5
 		
 		// Jumping
 		if (place_meeting(x,y+1,oSolid)) && (canJump-- > 0)
@@ -16,7 +16,7 @@ function StateMachine() {
 			// Charged jumping
 			if keyboard_check(vk_space) 
 			{
-				hspWalk = 0;	
+				hspWalk = 0
 				if jumpspeed > 9 jumpspeed = 9
 				jumpspeed += 0.2;
 				if (jumpspeed < 5) image_index = 1;
@@ -36,7 +36,7 @@ function StateMachine() {
 			else if keyboard_check_pressed(vk_space)
 			{ 
 				// Normal jumping
-				vsp -= jumpspeed;
+				vsp -= jumpspeed
 			}
 		}
 	
@@ -54,45 +54,44 @@ function StateMachine() {
 			{
 				if (!audio_is_playing(snBottleSquirt)) 
 				{
-					audio_play_sound(snBottleSquirt, 5, 0); 
+					audio_play_sound(snBottleSquirt, 5, 0)
 				}		
-		        dash--;
-		        haddsp = round(lengthdir_x(-13,point_direction(x,y,mouse_x,mouse_y)));
+		        dash--
+		        haddsp = round(lengthdir_x(-13,point_direction(x,y,mouse_x,mouse_y)))
 				
 		        if (mouse_y > y) // When mouse is above player
 		        {
-		            vsp = -3 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y));
+		            vsp = -3 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y))
 		        }
 				
 		        else if (mouse_y > (y + 100))
 		        {
-		            vsp = 5 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y));    // When mouse is below player
+		            vsp = 5 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y))    // When mouse is below player
 		        }  
 			
 		        else 
 				{
-					vsp = -2 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y)); // When mouse is horizontal
+					vsp = -2 + lengthdir_y(-7,point_direction(x,y,mouse_x,mouse_y)) // When mouse is horizontal
 				}
 		    }
 		}
 
 
 		if vsp != 0 {
-			image_angle = point_direction(x,y,mouse_x,mouse_y) - 90;
+			image_angle = point_direction(x,y,mouse_x,mouse_y) - 90
 		}
 
-		// Change Key
+		// Switch player
 		if (_keyChange) {
-			state = "bag";
-			_keyChange = false;
+			ChangeState()
 		}	
 	}
 	
-	// Bag
-	if state == "bag" {
+	if (state == Players.PLASTIC_BAG) {
 	
+		// Set sprites
+		sprite_index = sPlasticBag
 		image_angle = 0;
-		sprite_index = sPlasticBag;
 		
 		// Variables
 		if vsp > 0 grv = 0.05;
@@ -116,51 +115,39 @@ function StateMachine() {
 			image_index = 0;
 		}
 		
-		// Change Key
+		// Switch player
 		if (_keyChange) {
-			state = "gum";
-			_keyChange = false;
+			ChangeState()
 		}		
 	}
 	
-	// Gum
-	if state == "gum" {
+	if (state == Players.GUM) {
 	
-		image_angle = 0;
-		sprite_index = sGum;
+		// Set sprites
+		sprite_index = sGum
+		image_angle = 0
 		
-		vspJump = -1;
-		grv = 0.2;
-
-		switch(_state) {
-		    case States.SHOOTING:
-				hspWalk = 0;
-				break;
-			default:
-				_gum_shoot();
-				hspWalk = 2;
-				break;
+		// Set default values
+		grv = 0.1
+		vspJump = -1.5
+		
+		// Disallow walking while shooting
+		if (_gum_has_shot == true) {
+			hspWalk = 0
 		}
-	
-		//Change Key
+		else {
+			hspWalk = 2
+		}
+
+		// Shoot when mouse button is pressed and 
+		if ((_keyDash) and (_gum_globjule == noone)) { 
+			_gum_globjule = instance_create_layer(x, y, "Player", oGlobjule)
+			_gum_has_shot = true
+		}
+
+		// Switch player
 		if (_keyChange) {
-			if (_globjule != noone) {
-				instance_destroy(_globjule)
-				_globjule = noone
-			}
-			state = "bottle";
-			_keyChange = false;
-		}	
+			ChangeState()
+		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

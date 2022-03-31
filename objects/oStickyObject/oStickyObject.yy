@@ -5,10 +5,7 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sStickyObject",
-    "path": "sprites/sStickyObject/sStickyObject.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
     "name": "oSolid",
