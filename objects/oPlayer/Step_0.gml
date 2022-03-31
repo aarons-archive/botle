@@ -17,6 +17,7 @@ else if (haddsp < 0) haddsp += 0.5;
 
 //Work out where to move vertically
 vsp += grv;
+if (vsp > 10) vsp = 10; //Terminal Velocity
 
 //Work out if we should jump
 if state != "bottle"
@@ -88,6 +89,7 @@ else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "
 	}
 	if (waddle <= 0) waddle = 20;
 }
+
 
 
 

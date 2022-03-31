@@ -22,6 +22,7 @@ function StateMachine() {
 				if (jumpspeed < 5) image_index = 1;
 				else if (jumpspeed < 7) image_index = 2;
 				else if (jumpspeed < 10) image_index = 3;
+				ScreenShake(1,1);
 			} 
 			else if keyboard_check_released(vk_space) 
 			{
@@ -47,13 +48,13 @@ function StateMachine() {
 		
 		if (_keyDash) && (dash > 0) && vsp != 0 
 		{
+			ScreenShake(2,30);
 		    if !((place_meeting (x,y+1,oSolid)) && (mouse_y > y)) 
 			{
 				if (!audio_is_playing(snBottleSquirt)) 
 				{
 					audio_play_sound(snBottleSquirt, 5, 0); 
-				}
-				
+				}		
 		        dash--;
 		        haddsp = round(lengthdir_x(-13,point_direction(x,y,mouse_x,mouse_y)));
 				
@@ -148,4 +149,8 @@ function StateMachine() {
 		}	
 	}
 }
+
+
+
+
 

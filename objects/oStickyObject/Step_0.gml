@@ -35,3 +35,4 @@ if (place_meeting(x, y, oPlayer)) {
 	x += 1
 }
 
+
