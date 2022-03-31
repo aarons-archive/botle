@@ -2,13 +2,12 @@ draw_self()
 
 var _distance = point_distance(x, y, oPlayer.x, oPlayer.y)
 var _angle = point_direction(x, y, oPlayer.x, oPlayer.y)
-var _spacing = 1
-var _number = _distance / _spacing
+var _number = _distance / 1
 
 for (var i = 0; i < _number; i++) {
 
-	var _x = x + lengthdir_x((_spacing * i), _angle)
-	var _y = y + lengthdir_y((_spacing * i), _angle)
+	var _x = x + lengthdir_x(1 * i, _angle)
+	var _y = y + lengthdir_y(1 * i, _angle)
 
 	draw_sprite_ext(
 		sStrand, 0,
@@ -18,5 +17,7 @@ for (var i = 0; i < _number; i++) {
 		c_white, 1
 	)
 }
+
+
 
 

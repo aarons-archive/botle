@@ -5,7 +5,7 @@ if (_is_retracting == true) {
 	
 	if (_sticky_object != noone) {
 		_sticky_object.direction = point_direction(x, y, oPlayer.x, oPlayer.y)
-		_sticky_object.speed = 5
+		_sticky_object.speed = 10
 		_sticky_object._was_hit = true
 		_sticky_object = noone
 	}
@@ -26,11 +26,12 @@ else {
 		or
 		place_meeting(x, y, oSolid)
 		or 
-		(oPlayer._keyDash)
+		mouse_check_button_released(mb_left)
 	) {
 		_is_retracting = true  
 	}
 
 }
+
 
 

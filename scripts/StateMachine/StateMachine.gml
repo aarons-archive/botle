@@ -128,27 +128,32 @@ function StateMachine() {
 		image_angle = 0;
 		sprite_index = sGum;
 		
+		vspJump = -1;
 		grv = 0.2;
 
 		switch(_state) {
 		    case States.SHOOTING:
 				hspWalk = 0;
-				vspJump = 0;
 				break;
 			default:
 				_gum_shoot();
-				vspJump = -6;
 				hspWalk = 2;
 				break;
 		}
 	
 		//Change Key
 		if (_keyChange) {
+			if (_globjule != noone) {
+				instance_destroy(_globjule)
+				_globjule = noone
+			}
 			state = "bottle";
 			_keyChange = false;
 		}	
 	}
 }
+
+
 
 
 

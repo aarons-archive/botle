@@ -1,6 +1,6 @@
 oPlayer._state = States.SHOOTING
 
-_max_distance = 200
+_max_distance = 350
 _is_retracting = false
 _sticky_object = noone
 
@@ -11,7 +11,7 @@ speed = 10
 function _retract_globjule() {
 	image_angle = point_direction(oPlayer.x, oPlayer.y, x, y)
 	direction = point_direction(x, y, oPlayer.x, oPlayer.y)
-	speed = 5	
+	speed = 10
 }
 
 

@@ -19,20 +19,20 @@ if (place_meeting(x + _horizontal_distance, y, oSolid)) {
 y += _vertical_distance
 x += _horizontal_distance
 
+
+////////////////
+// Retraction //
+////////////////
 if (_was_hit == true) {
-	if (collision_circle(x, y, 40, oPlayer, true, true) or _buffer == 0) {
+	if (collision_circle(x, y, 40, oPlayer, true, true) or _move_buffer == 0) {
 		speed = 0
 		_was_hit = false
-		_buffer = 40
+		_move_buffer = 40
 	}
-	_buffer -= 1
+	_move_buffer -= 1
 }
 
 if (place_meeting(x, y, oSolid)) {
 	y -= 1
 }
-if (place_meeting(x, y, oPlayer)) {
-	x += 1
-}
-
 
