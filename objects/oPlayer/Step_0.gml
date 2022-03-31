@@ -1,3 +1,8 @@
+//Destroy player
+if room = r0_Menu
+{
+	instance_destroy();
+}
 //Get inputs
 var _keyRight = keyboard_check(ord("D"));
 var _keyLeft =  keyboard_check(ord("A"));
