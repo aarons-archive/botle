@@ -23,3 +23,11 @@ shake_remain = max(0,shake_remain-((1/shake_length)*shake_magnitude));
 
 //Update Camera View
 camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
+if (layer_exists("SecondLayer"))
+{
+	layer_x("SecondLayer",x/2);	
+}
+if (layer_exists("FirstLayer"))
+{
+	layer_x("FirstLayer",x/4);	
+}

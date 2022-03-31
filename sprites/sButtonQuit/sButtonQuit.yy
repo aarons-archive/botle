@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 155,
+  "bbox_right": 233,
   "bbox_top": 0,
-  "bbox_bottom": 59,
+  "bbox_bottom": 89,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 156,
-  "height": 60,
+  "width": 234,
+  "height": 90,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"41837755-8caa-41dd-9059-98e8661c308f","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"41837755-8caa-41dd-9059-98e8661c308f","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":{"name":"09f20d10-e5df-4131-820c-8ddd7fab7c4d","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"41837755-8caa-41dd-9059-98e8661c308f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":{"name":"09f20d10-e5df-4131-820c-8ddd7fab7c4d","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"80bd6335-1f26-4c86-b96f-cacf9610c337","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"80bd6335-1f26-4c86-b96f-cacf9610c337","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":{"name":"09f20d10-e5df-4131-820c-8ddd7fab7c4d","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"80bd6335-1f26-4c86-b96f-cacf9610c337","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"47970706-f839-48c3-a6a4-eaa0e8c3339b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"41837755-8caa-41dd-9059-98e8661c308f","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"66d9e809-d419-4c8d-8a00-2f8723dad325","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5ba5e34-3113-40a3-88ab-2cc7dd6ae5c9","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ed2f307-a677-403e-8798-7d769d5c055d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80bd6335-1f26-4c86-b96f-cacf9610c337","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,8 +58,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 78,
-    "yorigin": 30,
+    "xorigin": 117,
+    "yorigin": 45,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},
