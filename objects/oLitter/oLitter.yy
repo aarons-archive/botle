@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sOldPlayer",
-    "path": "sprites/sOldPlayer/sOldPlayer.yy",
+    "name": "sLitterPlaceholder",
+    "path": "sprites/sLitterPlaceholder/sLitterPlaceholder.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oOldPlayer",
+  "name": "oLitter",
   "tags": [],
   "resourceType": "GMObject",
 }
