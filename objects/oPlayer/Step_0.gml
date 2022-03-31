@@ -1,31 +1,31 @@
-//Destroy player
-if room = r0_Menu
-{
+// Destroy player
+if (room == r0_Menu) {
 	instance_destroy();
 }
-//Get inputs
+
+// Get inputs
 var _keyRight = keyboard_check(ord("D"));
 var _keyLeft =  keyboard_check(ord("A"));
 var _keyJump =  keyboard_check_pressed(vk_space);
 _keyDash = mouse_check_button_pressed(mb_left);
 _keyChange = keyboard_check_pressed(vk_shift);
 
-//State Machine
+// State Machine
 StateMachine();
 
-//Work out where to move horizontally
+// Work out where to move horizontally
 hsp = (_keyRight - _keyLeft) * hspWalk;
 
-//haddsp stuff
+// haddsp stuff
 if (haddsp > 0) haddsp -= 0.5;
 else if (haddsp < 0) haddsp += 0.5;
 
-//Work out where to move vertically
+// Work out where to move vertically
 vsp += grv;
 if (vsp > 10) vsp = 10; //Terminal Velocity
 
-//Work out if we should jump
-if state != "bottle"
+// Work out if we should jump
+if state != Players.BOTTLE
 {
 	if (canJump-- > 0) && (_keyJump)
 	{
@@ -35,7 +35,7 @@ if state != "bottle"
 }
 
 
-//Collide and Move
+// Collide and Move
 var hspMomentum = hsp + haddsp;
 if (place_meeting(x + hspMomentum, y, oSolid)) 
 {
@@ -62,8 +62,8 @@ if (place_meeting(x, y + vsp, oSolid))
 }
 y += vsp;
 
-//Waddle
-if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "bottle")
+// Waddle
+if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == Players.BOTTLE)
 {
 	waddle--;
 	if (waddle >= 10) 
@@ -78,7 +78,7 @@ if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "bottl
 	}
 	if (waddle <= 0) waddle = 20;
 }
-else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "bag")
+else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == Players.PLASTIC_BAG)
 {
 	waddle -= 0.5;
 	sprite_index = sPlasticBag_Walking;
@@ -94,8 +94,4 @@ else if (hsp != 0 && vsp == 0 && (place_meeting(x, y + 5, oSolid)) && state == "
 	}
 	if (waddle <= 0) waddle = 20;
 }
-
-
-
-
 

@@ -1,3 +1,3 @@
-oPlayer._state = States.IDLE
-oPlayer._globjule = noone
+oPlayer._gum_has_shot = false
+oPlayer._gum_globjule = noone
 

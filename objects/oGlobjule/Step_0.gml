@@ -1,11 +1,11 @@
 
-if (_is_retracting == true) {
+if (_retracting == true) {
 
-	_retract_globjule()
+	image_angle = point_direction(oPlayer.x, oPlayer.y, x, y)
+	direction = point_direction(x, y, oPlayer.x, oPlayer.y)
+	speed = 10
 	
 	if (_sticky_object != noone) {
-		_sticky_object.direction = point_direction(x, y, oPlayer.x, oPlayer.y)
-		_sticky_object.speed = 10
 		_sticky_object._was_hit = true
 		_sticky_object = noone
 	}
@@ -15,23 +15,21 @@ if (_is_retracting == true) {
 	}
 }
 
-else {
+else if (_retracting == false) {
 
 	_sticky_object = instance_place(x, y, oStickyObject)
 	
+	// start retracting if..
 	if (
-		_sticky_object != noone 
-		or 
-		point_distance(oPlayer.x, oPlayer.y, x, y) > _max_distance
+		place_meeting(x, y, oSolid) // ..it hit a solid object (oCol, oStickyObject, etc) 
 		or
-		place_meeting(x, y, oSolid)
+		point_distance(oPlayer.x, oPlayer.y, x, y) > _max_distance // ..it travelled more than _max_distance
 		or 
-		mouse_check_button_released(mb_left)
+		mouse_check_button_released(mb_left) // ..the player released the fire key
 	) {
-		_is_retracting = true  
+		_retracting = true  
 	}
 
 }
-
 
 
