@@ -1,14 +1,13 @@
 {
-  "kind": 0,
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "Path2",
   "closed": false,
-  "precision": 4,
-  "points": [],
+  "kind": 0,
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Path2",
-  "tags": [],
-  "resourceType": "GMPath",
+  "points": [],
+  "precision": 4,
 }
